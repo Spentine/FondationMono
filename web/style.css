@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Fondation Mono";
+  src:
+    local("Fondation Mono"),
+    url("../fonts/v1.000/FondationMono.otf");
+}
+
+body {
+  background-color: #222222;
+  color: #ffffff;
+  font-family: "Fondation Mono";
+  padding: 48px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+a {
+  color: #80eeaa;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #50cc00;
+}
+
+p {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+hr {
+  border-color: #406040;
+  background-color: #406040;
+  height: 2px;
+  border: 0;
+  margin: 24px 0px;
+}
+
+img {
+  object-fit: contain;
+  height: 400px;
+  margin: 8px;
+}
+
+label {
+  font-size: 24px;
+}
+
+input {
+  background-color: #333333;
+  font-family: inherit;
+  color: inherit;
+  font-size: 24px;
+}
+
+textarea {
+  background-color: #333333;
+  font-family: inherit;
+  color: inherit;
+  font-size: 36px;
+  width: 100%;
+  margin: 24px 0px 24px 0px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1024px;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.colored {
+  color: #aaeebb;
+}
+
+.demoTextArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demoText {
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+#timer {
+  font-size: 50px;
+}
+
+#install {
+  background-color: #333333;
+  font-family: inherit;
+  color: #bbeeee;
+  font-size: 48px;
+  padding: 16px;
+  transition: 0.1s;
+}
+
+#install:hover {
+  background-color: #444444;
+  color: #aaeebb;
+}
